@@ -16,7 +16,7 @@ nav {
 
 }
 
-.nav {
+.nav-title {
     color: #131313);
     font-size: 2.8rem;
     font-weight: 700;
@@ -54,7 +54,7 @@ nav li a {
 }
 
 .banner-description {
-    color: #727272);
+    color: #727272;
     font-size: 1rem;
     font-weight: 400;
 }
@@ -90,18 +90,18 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 1.3rem;
     ;
-    
+
 }
 
 .team-text {
     justify-content: center;
     align-items: center;
     margin-left: 50px;
-   
+
 }
 
 .span1 {
-    color: #727272);
+    color: #727272;
     font-size: 3.7rem;
     font-weight: 500;
 }
@@ -119,9 +119,51 @@ main {
 }
 
 .team-text-description {
-    color: #727272);
+    color: #727272;
     font-size: 16px;
     font-weight: 400;
+}
+
+.card {
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin: 3px;
+}
+
+.card-description {
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 3px;
+}
+
+.sponspor-title {
+    color: #131313;
+    font-size: 3.7rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 100px 10px 10px 10px;
+}
+.sponspors{
+   text-align: center;
+}
+.sponspors-image-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 10px;
 }
 
 
@@ -133,14 +175,27 @@ main {
         padding: 10px;
     }
 
-    nav, .team-container{
+    nav,
+    .team-container,
+    .facts-card-container,
+    .sponspors-image-container{
         flex-direction: column;
     }
-    .team-image-container{
-        grid-template-columns: repeat(1,1fr);
+
+    .team-image-container {
+        grid-template-columns: repeat(1, 1fr);
     }
-    main{
+
+    main {
         margin: 10px;
+    }
+
+    .facts-card-container {
+        margin: 10px 40px;
+        gap: 10px;
+    }
+    .sponspors-image-container{
+       gap:30px
     }
 }
 
@@ -149,7 +204,8 @@ main {
     header {
         padding: 50px;
     }
-    .team-container{
+
+    .team-container {
         flex-direction: column;
     }
 
