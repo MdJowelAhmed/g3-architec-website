@@ -58,3 +58,35 @@ nav li a {
     font-size: 1rem;
     font-weight: 400;
 }
+
+.btn-primary {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: .5rem;
+    background: #FF900E;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* media quary  */
+/* mobile device  */
+@media screen and (max-width:576px) {
+    header{
+        padding: 10px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+/* midium device  */
+@media screen and (min-width:577px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    
+}
